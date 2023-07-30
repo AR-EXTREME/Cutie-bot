@@ -4,10 +4,10 @@ const { pathfinder, Movements, goals} = require('mineflayer-pathfinder')
 const armorManager = require('mineflayer-armor-manager')
 
 const bot = mineflayer.createBot({
-    host: process.argv[2],
-    port: process.argv[3],
-    username: process.argv[4] || 'pvp_Bot2',
-    password: process.argv[5],
+    host: 'ExtremePvP.aternos.me',
+    port: '12037',
+    username: Cutie_eGirl || 'pvp_Bot2',
+    password: 2422p,
     logErrors: false
 })
 
